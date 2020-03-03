@@ -65,8 +65,8 @@ Public Class AEGS
                             If year <> "" Then
                                 If section <> "" Then
                                     MessageBox.Show("Completely filled out")
-                                    'WebBrowser.Navigate("https://pup.edu.ph")
-                                    Process.Start("https://www.twitter.com")
+                                    WebBrowser.Navigate("sisfaculty.pup.edu.ph")
+                                    'Process.Start("https://www.twitter.com")
 
                                 End If
                             End If
